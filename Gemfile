@@ -10,13 +10,15 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'turbolinks'
+# gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'font-awesome-sass', '~> 4.3.0'
 gem 'devise', '~> 3.5.1'
+gem 'stripe', '~> 1.22.0'
+gem 'figaro', '~> 1.1.1'
 
 group :production do
   gem 'pg'
