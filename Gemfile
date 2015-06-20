@@ -19,6 +19,7 @@ gem 'font-awesome-sass', '~> 4.3.0'
 gem 'devise', '~> 3.5.1'
 gem 'stripe', '~> 1.22.0'
 gem 'figaro', '~> 1.1.1'
+gem 'paperclip', '~> 4.3.0'
 
 group :production do
   gem 'pg'
