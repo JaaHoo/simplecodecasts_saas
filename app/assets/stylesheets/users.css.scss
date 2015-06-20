@@ -12,6 +12,7 @@
 .profile-picture {
   border-radius: 50%;
   border: 3px solid #FFF;
+  max-width: 128px;
 }
 
 .contact-info {
@@ -24,4 +25,8 @@
   h4 {
     margin-top: 0;
   }
+}
+
+.white-bg {
+  background-color: #fff;
 }
